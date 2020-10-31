@@ -14,12 +14,13 @@ header {
 }
 
 main {
-    display: grid;
-    grid-template-columns: 15rem auto;
+    display: flex;
     aside {
         background: $nav_color;
-        width: 15rem;
-        height: 100%;
+        width: 20rem;
+        height: 95vh;
+        top: 0;
+        left: 0;
         ul {
             list-style: none;
             margin: 0;
@@ -47,9 +48,5 @@ main {
                 }
             }
         }
-    }
-    footer {
-        text-align: center;
-        margin-top: 66%;
     }
 }
