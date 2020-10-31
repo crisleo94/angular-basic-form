@@ -1,0 +1,33 @@
+<header>
+  <nav>
+    <img [src]="logoValue" alt="logo">
+  </nav>
+</header>
+<main>
+  <aside>
+    <ul>
+      <li routerLink="/servicio-tecnico" routerLinkActive="active">
+        <span class="material-icons">
+          pie_chart
+        </span>
+        <span>
+          <a>Reporte de Servicio</a>
+        </span>
+      </li>
+      <li routerLink="/calculo-horas" routerLinkActive="active">
+        <span class="material-icons">
+          tv
+        </span>
+        <span>
+          <a>Calculo de Horas</a>
+        </span>
+      </li>
+    </ul>
+  </aside>
+  <section>
+    <router-outlet></router-outlet>
+    <footer>
+      <span>Prueba tecnica IAS. - 2020</span>
+    </footer>
+  </section>
+</main>
